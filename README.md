@@ -1,6 +1,6 @@
-# Portfolio Website
+# Shrestha Verdhan - Portfolio Website
 
-A modern, responsive portfolio website built with HTML5, CSS3, and vanilla JavaScript. Features a clean design, smooth animations, and mobile-first responsive layout.
+A modern, responsive portfolio website showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript. Features a clean design, smooth animations, and mobile-first responsive layout.
 
 ## 🚀 Features
 
@@ -15,27 +15,33 @@ A modern, responsive portfolio website built with HTML5, CSS3, and vanilla JavaS
 ## 📁 Project Structure
 
 ```
-portfolio-website/
+PORTFOLIO-WEBSITE/
 ├── index.html              # Main HTML file
 ├── src/
 │   ├── css/
-│   │   └── styles.css      # Main stylesheet
-│   └── js/
-│       └── main.js         # JavaScript functionality
-├── dist/                   # Production build files (generated)
+│   │   └── styles.css      # Main stylesheet with animations
+│   ├── js/
+│   │   └── main.js         # Interactive functionality
+│   └── images/
+│       └── profile.jpg     # Profile photo
 ├── .github/
 │   └── copilot-instructions.md
 ├── package.json            # Dependencies and scripts
+├── netlify.toml           # Netlify deployment configuration
+├── .gitignore             # Git ignore rules
 └── README.md              # Project documentation
 ```
 
 ## 🛠️ Technologies Used
 
 - **HTML5**: Semantic markup structure
-- **CSS3**: Modern styling with custom properties, Grid, and Flexbox
-- **JavaScript (ES6+)**: Interactive functionality and animations
+- **CSS3**: Modern styling with custom properties, Grid, Flexbox, and animations
+- **JavaScript (ES6+)**: Interactive functionality and smooth scrolling
 - **Google Fonts**: Poppins font family
+- **Font Awesome**: Icons for skills and social media
 - **Live Server**: Development server with hot reload
+- **Git & GitHub**: Version control and code hosting
+- **Netlify**: Deployment platform with auto-deploy
 
 ## 🚀 Quick Start
 
@@ -48,8 +54,8 @@ portfolio-website/
 
 1. **Clone or download this repository**
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
-   cd portfolio-website
+   git clone https://github.com/arkham-knight07/PORTFOLIO-WEBSITE.git
+   cd PORTFOLIO-WEBSITE
    ```
 
 2. **Install dependencies**
@@ -112,7 +118,19 @@ The CSS uses custom properties (CSS variables) for easy theming:
 - **Tablet**: 768px - 1024px
 - **Desktop**: > 1024px
 
-## 🌟 Key Features Explained
+## � Featured Projects
+
+This portfolio showcases the following projects:
+
+### 1. Renewable Energy Simulation
+An interactive dashboard for comparing different renewable energy sources. Visualize, compare, and analyze energy data with modern charts and a user-friendly interface.
+- **Repository**: [Renewable-Energy-Simulation](https://github.com/arkham-knight07/Renewable-Energy-Simulation.git)
+
+### 2. BrainBuddy
+A modern AI-powered lesson converter and quiz generator. Transform your lessons into engaging quizzes with ease.
+- **Repository**: [BRAINBUDDY](https://github.com/arkham-knight07/BRAINBUDDY.git)
+
+## �🌟 Key Features Explained
 
 ### Navigation
 - Fixed header with smooth scroll navigation
@@ -220,7 +238,8 @@ If you have any questions or need help customizing the portfolio, feel free to:
 
 - Open an issue on GitHub
 - Contact me via the contact form on the website
-- Email: your.email@example.com
+- GitHub: [@arkham-knight07](https://github.com/arkham-knight07)
+- LinkedIn: Connect with me through the website
 
 ## 📸 Screenshots
 

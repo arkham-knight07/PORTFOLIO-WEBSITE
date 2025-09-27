@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "A modern, responsive portfolio website built with HTML5, CSS3, and vanilla JavaScript",
+  "description": "Shrestha Verdhan's portfolio website built with HTML5, CSS3, and vanilla JavaScript",
   "main": "index.html",
   "scripts": {
     "start": "live-server --port=3000 --open=/index.html",
@@ -21,7 +21,7 @@
     "responsive",
     "modern"
   ],
-  "author": "Your Name",
+  "author": "Shrestha Verdhan",
   "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.2",
@@ -36,7 +36,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/portfolio-website.git"
+    "url": "https://github.com/arkham-knight07/PORTFOLIO-WEBSITE.git"
   },
-  "homepage": "https://yourusername.netlify.app"
+  "homepage": "https://arkham-knight07-portfolio.netlify.app"
 }

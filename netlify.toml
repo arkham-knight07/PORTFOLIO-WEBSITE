@@ -2,8 +2,8 @@
   # Directory to publish (current directory)
   publish = "."
   
-  # Build command (optional - not needed for static sites)
-  command = "npm run build"
+  # No build command needed for static HTML/CSS/JS site
+  # command = ""
 
 [build.environment]
   NODE_VERSION = "18"
