@@ -1,4 +1,4 @@
-# Shrestha Verdhan - Portfolio Website# Shrestha Verdhan - Portfolio Website# Shrestha Verdhan - Portfolio Website
+# Shrestha Verdhan - Portfolio Website# Shrestha Verdhan - Portfolio Website# Shrestha Verdhan - Portfolio Website# Shrestha Verdhan - Portfolio Website
 
 
 
@@ -6,7 +6,7 @@ A modern, responsive portfolio website showcasing my skills and projects. Built 
 
 
 
-## ✨ FeaturesA modern, responsive portfolio website showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript.A modern, responsive portfolio ## 🚀 Deployment
+## ✨ FeaturesA modern, responsive portfolio website showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript.
 
 
 
@@ -14,7 +14,7 @@ A modern, responsive portfolio website showcasing my skills and projects. Built 
 
 - Smooth animations and interactive elements
 
-- Clean, professional UI/UX## ✨ Features**Live Site:** [View Portfolio](https://arkham-knight07-portfolio.netlify.app)
+- Clean, professional UI/UX## ✨ FeaturesA modern, responsive portfolio website showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript.A modern, responsive portfolio ## 🚀 Deployment
 
 - SEO optimized
 
@@ -22,15 +22,15 @@ A modern, responsive portfolio website showcasing my skills and projects. Built 
 
 ## 📁 Project Structure
 
-- Responsive design for all devicesDeploy to Netlify:
+- Responsive design for all devices
 
 ```
 
-PORTFOLIO-WEBSITE/- Smooth animations and interactive elements1. Connect your GitHub repository at [netlify.com](https://netlify.com)
+PORTFOLIO-WEBSITE/- Smooth animations and interactive elements
 
 ├── index.html              # Main HTML file
 
-├── src/- Clean, professional UI/UX2. Auto-deploys on every push to main branch
+├── src/- Clean, professional UI/UX## ✨ Features**Live Site:** [View Portfolio](https://arkham-knight07-portfolio.netlify.app)
 
 │   ├── css/
 
@@ -38,7 +38,7 @@ PORTFOLIO-WEBSITE/- Smooth animations and interactive elements1. Connect your Gi
 
 │   ├── js/
 
-│   │   └── main.js         # Interactive functionality## 📞 Contact
+│   │   └── main.js         # Interactive functionality
 
 │   └── images/
 
@@ -46,38 +46,117 @@ PORTFOLIO-WEBSITE/- Smooth animations and interactive elements1. Connect your Gi
 
 ├── package.json            # Dependencies and scripts
 
-├── netlify.toml           # Netlify deployment configuration- **GitHub:** [@arkham-knight07](https://github.com/arkham-knight07)
+├── netlify.toml           # Netlify deployment configuration- Responsive design for all devicesDeploy to Netlify:
 
 └── README.md              # Project documentation
 
-``````- **Portfolio:** Contact form available on the website
+``````
 
 
 
-## 🛠️ TechnologiesPORTFOLIO-WEBSITE/
+## 🛠️ TechnologiesPORTFOLIO-WEBSITE/- Smooth animations and interactive elements1. Connect your GitHub repository at [netlify.com](https://netlify.com)
 
 
 
-- HTML5, CSS3, JavaScript (ES6+)├── index.html              # Main HTML file## 📄 License
+- HTML5, CSS3, JavaScript (ES6+)├── index.html              # Main HTML file
 
 - Google Fonts, Font Awesome
 
-- Live Server for development├── src/
+- Live Server for development├── src/- Clean, professional UI/UX2. Auto-deploys on every push to main branch
 
 - Deployed on Netlify
 
-│   ├── css/MIT Licenseebsite showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript.
+│   ├── css/
 
 ## 🚀 Quick Start
 
-│   │   └── styles.css      # Main stylesheet with animations
+│   │   └── styles.css      # Main stylesheet with animations- SEO optimized
 
 1. **Clone the repository**
 
-   ```bash│   ├── js/## ✨ Features
+   ```bash│   ├── js/
 
    git clone https://github.com/arkham-knight07/PORTFOLIO-WEBSITE.git
 
+   cd PORTFOLIO-WEBSITE│   │   └── main.js         # Interactive functionality## 📞 Contact
+
+   ```
+
+│   └── images/
+
+2. **Install and run**
+
+   ```bash│       └── profile.jpg     # Profile photo## 📁 Project Structure
+
+   npm install
+
+   npm run dev├── package.json            # Dependencies and scripts
+
+   ```
+
+   ├── netlify.toml           # Netlify deployment configuration- **GitHub:** [@arkham-knight07](https://github.com/arkham-knight07)
+
+   Opens at `http://localhost:3000`
+
+└── README.md              # Project documentation
+
+## 📜 Available Scripts
+
+``````- **Portfolio:** Contact form available on the website
+
+- `npm run dev` - Development server with live reload
+
+- `npm run build` - Build for production
+
+
+
+## 🎯 Featured Projects## 🛠️ TechnologiesPORTFOLIO-WEBSITE/
+
+
+
+### 1. Renewable Energy Simulation
+
+An interactive dashboard for comparing different renewable energy sources. Visualize, compare, and analyze energy data with modern charts and a user-friendly interface.
+
+- **Repository**: [Renewable-Energy-Simulation](https://github.com/arkham-knight07/Renewable-Energy-Simulation.git)- HTML5, CSS3, JavaScript (ES6+)├── index.html              # Main HTML file## 📄 License
+
+
+
+### 2. BrainBuddy- Google Fonts, Font Awesome
+
+A modern AI-powered lesson converter and quiz generator. Transform your lessons into engaging quizzes with ease.
+
+- **Repository**: [BRAINBUDDY](https://github.com/arkham-knight07/BRAINBUDDY.git)- Live Server for development├── src/
+
+
+
+## 🚀 Deployment- Deployed on Netlify
+
+
+
+**Live Site:** [View Portfolio](https://arkham-knight07-portfolio.netlify.app)│   ├── css/MIT Licenseebsite showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript.
+
+
+
+Deploy to Netlify by connecting your GitHub repository at [netlify.com](https://netlify.com)## 🚀 Quick Start
+
+
+
+## 📞 Contact│   │   └── styles.css      # Main stylesheet with animations
+
+
+
+- **GitHub:** [@arkham-knight07](https://github.com/arkham-knight07)1. **Clone the repository**
+
+- **Portfolio:** Contact form available on the website
+
+   ```bash│   ├── js/## ✨ Features
+
+## 📄 License
+
+   git clone https://github.com/arkham-knight07/PORTFOLIO-WEBSITE.git
+
+MIT License
    cd PORTFOLIO-WEBSITE│   │   └── main.js         # Interactive functionality
 
    ```
@@ -272,63 +351,6 @@ A modern AI-powered lesson converter and quiz generator. Transform your lessons 
 - Back-to-top button
 - Mobile menu toggle
 
-## 🚀 Deployment Options
-
-### 🚀 Quick Deploy (Recommended)
-
-#### Option 1: Netlify CLI Deployment
-```bash
-# Install Netlify CLI
-npm install -g netlify-cli
-
-# Login to your Netlify account
-netlify login
-
-# Deploy from project directory
-netlify deploy --prod --dir .
-```
-
-#### Option 2: Drag & Drop (Easiest)
-1. **Netlify**: Go to [netlify.com](https://netlify.com) → Drag your project folder to deploy
-
-### 🔗 Git-Based Deployment (Automatic Updates)
-
-#### GitHub + Netlify
-1. Push your code to a GitHub repository
-2. Go to [netlify.com](https://netlify.com) → "New site from Git"
-3. Connect your GitHub repository
-4. Build settings:
-   - **Build command**: `npm run build` (optional)
-   - **Publish directory**: `.` (current directory)
-5. Deploy! Auto-deploys on every push to main branch
-
-
-
-### 📋 Pre-Deployment Checklist
-
-- [ ] Update personal information in `index.html`
-- [ ] Add your real projects to the projects section
-- [ ] Update contact information and social links
-- [ ] Replace placeholder images with your photos
-- [ ] Test the contact form functionality
-- [ ] Verify all links work correctly
-- [ ] Test responsive design on different devices
-
-### 🌐 Custom Domain Setup
-
-#### For Netlify:
-1. Go to Site Settings → Domain management
-2. Add your custom domain
-3. Follow DNS configuration instructions
-
-### ⚡ Performance Optimization
-
-Netlify automatically provides:
-- **CDN** - Global content delivery
-- **SSL** - HTTPS encryption  
-- **Compression** - Gzip/Brotli compression
-- **Caching** - Optimized cache headers (configured in netlify.toml)
-
 ## 🔧 Browser Support
 
 - Chrome (latest)
@@ -355,17 +377,3 @@ If you have any questions or need help customizing the portfolio, feel free to:
 - GitHub: [@arkham-knight07](https://github.com/arkham-knight07)
 - LinkedIn: Connect with me through the website
 
-## 📸 Screenshots
-
-*Add screenshots of your portfolio here to showcase the design*
-
----
-
-**Made with ❤️ and modern web technologies**
-
-Remember to:
-- Replace placeholder content with your actual information
-- Add your own projects and experiences
-- Customize colors and styling to match your brand
-- Test on multiple devices and browsers
-- Optimize images and content for best performance
