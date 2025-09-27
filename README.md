@@ -1,131 +1,166 @@
-# Shrestha Verdhan - Portfolio Website
+# Shrestha Verdhan - Portfolio Website# Shrestha Verdhan - Portfolio Website
 
-A modern, responsive portfolio website showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript. Features a clean design, smooth animations, and mobile-first responsive layout.
 
-## 🚀 Features
 
-- **Responsive Design**: Optimized for all devices (desktop, tablet, mobile)
-- **Modern UI/UX**: Clean, professional design with smooth animations
-- **Fast Loading**: Optimized performance with minimal dependencies
-- **SEO Friendly**: Semantic HTML structure with proper meta tags
-- **Interactive Elements**: Smooth scrolling, hover effects, and form validation
-- **Accessibility**: WCAG compliant with proper ARIA labels
-- **Cross-browser Support**: Works on all modern browsers
+A modern, responsive portfolio website showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript.A modern, responsive portfolio ## 🚀 Deployment
+
+
+
+## ✨ Features**Live Site:** [View Portfolio](https://arkham-knight07-portfolio.netlify.app)
+
+
+
+- Responsive design for all devicesDeploy to Netlify:
+
+- Smooth animations and interactive elements1. Connect your GitHub repository at [netlify.com](https://netlify.com)
+
+- Clean, professional UI/UX2. Auto-deploys on every push to main branch
+
+- SEO optimized
+
+## 📞 Contact
 
 ## 📁 Project Structure
 
-```
+- **GitHub:** [@arkham-knight07](https://github.com/arkham-knight07)
+
+```- **Portfolio:** Contact form available on the website
+
 PORTFOLIO-WEBSITE/
-├── index.html              # Main HTML file
+
+├── index.html              # Main HTML file## 📄 License
+
 ├── src/
-│   ├── css/
+
+│   ├── css/MIT Licenseebsite showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript.
+
 │   │   └── styles.css      # Main stylesheet with animations
-│   ├── js/
+
+│   ├── js/## ✨ Features
+
 │   │   └── main.js         # Interactive functionality
-│   └── images/
-│       └── profile.jpg     # Profile photo
-├── .github/
-│   └── copilot-instructions.md
-├── package.json            # Dependencies and scripts
-├── netlify.toml           # Netlify deployment configuration
-├── .gitignore             # Git ignore rules
+
+│   └── images/- Responsive design for all devices
+
+│       └── profile.jpg     # Profile photo- Smooth animations and interactive elements
+
+├── package.json            # Dependencies and scripts- Clean, professional UI/UX
+
+├── netlify.toml           # Netlify deployment configuration- SEO optimized
+
 └── README.md              # Project documentation
-```
 
-## 🛠️ Technologies Used
+```## 📁 Project Structure
 
-- **HTML5**: Semantic markup structure
-- **CSS3**: Modern styling with custom properties, Grid, Flexbox, and animations
-- **JavaScript (ES6+)**: Interactive functionality and smooth scrolling
-- **Google Fonts**: Poppins font family
-- **Font Awesome**: Icons for skills and social media
-- **Live Server**: Development server with hot reload
-- **Git & GitHub**: Version control and code hosting
-- **Netlify**: Deployment platform with auto-deploy
 
-## 🚀 Quick Start
 
-### Prerequisites
+## 🛠️ Technologies```
 
-- Node.js (v14 or higher)
-- npm or yarn
+PORTFOLIO-WEBSITE/
 
-### Installation
+- HTML5, CSS3, JavaScript (ES6+)├── index.html              # Main HTML file
 
-1. **Clone or download this repository**
-   ```bash
-   git clone https://github.com/arkham-knight07/PORTFOLIO-WEBSITE.git
-   cd PORTFOLIO-WEBSITE
-   ```
+- Google Fonts, Font Awesome├── src/
 
-2. **Install dependencies**
-   ```bash
+- Live Server for development│   ├── css/
+
+- Deployed on Netlify│   │   └── styles.css      # Main stylesheet with animations
+
+│   ├── js/
+
+## 🚀 Quick Start│   │   └── main.js         # Interactive functionality
+
+│   └── images/
+
+1. **Clone the repository**│       └── profile.jpg     # Profile photo
+
+   ```bash├── .github/
+
+   git clone https://github.com/arkham-knight07/PORTFOLIO-WEBSITE.git│   └── copilot-instructions.md
+
+   cd PORTFOLIO-WEBSITE├── package.json            # Dependencies and scripts
+
+   ```├── netlify.toml           # Netlify deployment configuration
+
+├── .gitignore             # Git ignore rules
+
+2. **Install and run**└── README.md              # Project documentation
+
+   ```bash```
+
    npm install
+
+   npm run dev## 🛠️ Technologies
+
    ```
 
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
-   
-   This will start a live server at `http://localhost:3000` with hot reload enabled.
+   - HTML5, CSS3, JavaScript (ES6+)
 
-### Alternative Setup
+   Opens at `http://localhost:3000`- Google Fonts, Font Awesome
 
-If you prefer not to use Node.js, you can simply open `index.html` in your browser. However, using the development server is recommended for the best experience.
+- Live Server for development
 
-## 🔧 Available Scripts
+## 📜 Available Scripts- Deployed on Netlify
 
-- `npm run start` - Start development server on port 3000
-- `npm run dev` - Start development server with file watching
-- `npm run build` - Build production files (minified CSS and JS)
-- `npm run serve` - Serve the project using http-server
 
-## 🎨 Customization
 
-### Personal Information
+- `npm run dev` - Development server with live reload## 🚀 Quick Start
 
-Update the following sections in `index.html`:
+- `npm run build` - Build for production
 
-1. **Hero Section**: Update name, title, and description
-2. **About Section**: Add your personal information and skills
-3. **Projects Section**: Add your projects with descriptions and links
-4. **Contact Section**: Update contact information and social links
+1. **Clone the repository**
 
-### Styling
+## 🎯 Featured Projects   ```bash
 
-The CSS uses custom properties (CSS variables) for easy theming:
+   git clone https://github.com/arkham-knight07/PORTFOLIO-WEBSITE.git
 
-```css
-:root {
-    --primary-color: #3b82f6;    /* Primary blue color */
-    --secondary-color: #64748b;   /* Secondary gray color */
-    --accent-color: #f59e0b;     /* Accent yellow color */
-    /* ... more variables */
-}
-```
+### 1. Renewable Energy Simulation   cd PORTFOLIO-WEBSITE
 
-### Adding New Sections
+An interactive dashboard for comparing different renewable energy sources. Visualize, compare, and analyze energy data with modern charts and a user-friendly interface.   ```
 
-1. Add the HTML structure in `index.html`
-2. Add corresponding styles in `src/css/styles.css`
-3. Update navigation links if needed
-4. Add any JavaScript functionality in `src/js/main.js`
-
-## 📱 Responsive Breakpoints
-
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1024px
-- **Desktop**: > 1024px
-
-## � Featured Projects
-
-This portfolio showcases the following projects:
-
-### 1. Renewable Energy Simulation
-An interactive dashboard for comparing different renewable energy sources. Visualize, compare, and analyze energy data with modern charts and a user-friendly interface.
 - **Repository**: [Renewable-Energy-Simulation](https://github.com/arkham-knight07/Renewable-Energy-Simulation.git)
 
+2. **Install and run**
+
+### 2. BrainBuddy   ```bash
+
+A modern AI-powered lesson converter and quiz generator. Transform your lessons into engaging quizzes with ease.   npm install
+
+- **Repository**: [BRAINBUDDY](https://github.com/arkham-knight07/BRAINBUDDY.git)   npm run dev
+
+   ```
+
+## 🚀 Deployment   
+
+   Opens at `http://localhost:3000`
+
+**Live Site:** [View Portfolio](https://arkham-knight07-portfolio.netlify.app)
+
+## � Available Scripts
+
+Deploy to Netlify:
+
+1. Connect your GitHub repository at [netlify.com](https://netlify.com)- `npm run dev` - Development server with live reload
+
+2. Auto-deploys on every push to main branch- `npm run build` - Build for production
+
+
+
+## 📞 Contact## � Featured Projects
+
+
+
+- **GitHub:** [@arkham-knight07](https://github.com/arkham-knight07)This portfolio showcases the following projects:
+
+- **Portfolio:** Contact form available on the website
+
+### 1. Renewable Energy Simulation
+
+## 📄 LicenseAn interactive dashboard for comparing different renewable energy sources. Visualize, compare, and analyze energy data with modern charts and a user-friendly interface.
+
+- **Repository**: [Renewable-Energy-Simulation](https://github.com/arkham-knight07/Renewable-Energy-Simulation.git)
+
+MIT License
 ### 2. BrainBuddy
 A modern AI-powered lesson converter and quiz generator. Transform your lessons into engaging quizzes with ease.
 - **Repository**: [BRAINBUDDY](https://github.com/arkham-knight07/BRAINBUDDY.git)
