@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website showcasing my work and skills">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">SHRESTHA VERDHAN</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="SHRESTHA VERDHAN">
+                    Hi, I'm <span class="highlight">SHRESTHA VERDHAN</span>
+                </h1>
+                <p class="hero-subtitle">Student</p>
+                <p class="hero-description">
+                    I’m a self-learning developer passionate about coding, AI, and creating practical solutions
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-placeholder">
+                    <img src="src/images/profile.jpg" alt="Shrestha Verdhan - Profile Photo" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hi! I'm Shrestha Verdhan, a passionate and curious individual on an exciting journey into the world of Technology. 
+                        I believe in the power of technology to create meaningful solutions and connect people across the globe.
+                    </p>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Currently, I'm exploring both frontend and backend technologies, driven by a passion for continuous learning and growth. 
+                        I love transforming creative ideas into real-world solutions through code, and each new challenge inspires me to push my boundaries further.
+                    </p>
+                </div>
+
+                    <div class="skills">
+                        <h3>Technical Skills</h3>
+                        
+                        <!-- Frontend Development -->
+                        <div class="skill-category">
+                            <h4 class="category-title">
+                                <i class="fas fa-desktop"></i>
+                                Frontend Development
+                            </h4>
+                            <div class="skills-grid">
+                                <div class="skill-item" data-skill="html" data-level="beginner">
+                                    <i class="fab fa-html5"></i>
+                                    <div class="skill-info">
+                                        <span class="skill-name">HTML5</span>
+                                        <span class="skill-level">Beginner / Learning</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="35"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item" data-skill="css" data-level="beginner">
+                                    <i class="fab fa-css3-alt"></i>
+                                    <div class="skill-info">
+                                        <span class="skill-name">CSS3</span>
+                                        <span class="skill-level">Beginner / Learning</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="35"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item" data-skill="javascript" data-level="beginner">
+                                    <i class="fab fa-js-square"></i>
+                                    <div class="skill-info">
+                                        <span class="skill-name">JavaScript</span>
+                                        <span class="skill-level">Beginner / Learning</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="30"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item" data-skill="react" data-level="beginner">
+                                    <i class="fab fa-react"></i>
+                                    <div class="skill-info">
+                                        <span class="skill-name">React.js</span>
+                                        <span class="skill-level">Beginner / Learning</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="25"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Backend Development -->
+                        <div class="skill-category">
+                            <h4 class="category-title">
+                                <i class="fas fa-server"></i>
+                                Backend Development
+                            </h4>
+                            <div class="skills-grid">
+                                <div class="skill-item" data-skill="node" data-level="beginner">
+                                    <i class="fab fa-node-js"></i>
+                                    <div class="skill-info">
+                                        <span class="skill-name">Node.js</span>
+                                        <span class="skill-level">Beginner / Learning</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="25"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item" data-skill="express" data-level="beginner">
+                                    <i class="fas fa-code"></i>
+                                    <div class="skill-info">
+                                        <span class="skill-name">Express.js</span>
+                                        <span class="skill-level">Beginner / Learning</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="20"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item" data-skill="python" data-level="beginner">
+                                    <i class="fab fa-python"></i>
+                                    <div class="skill-info">
+                                        <span class="skill-name">Python / Flask</span>
+                                        <span class="skill-level">Beginner / Learning</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="25"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Database & Tools -->
+                        <div class="skill-category">
+                            <h4 class="category-title">
+                                <i class="fas fa-database"></i>
+                                Database & Tools
+                            </h4>
+                            <div class="skills-grid">
+                                <div class="skill-item" data-skill="sql" data-level="beginner">
+                                    <i class="fas fa-database"></i>
+                                    <div class="skill-info">
+                                        <span class="skill-name">SQL</span>
+                                        <span class="skill-level">Beginner / Learning</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="30"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Soft Skills -->
+                        <div class="skill-category">
+                            <h4 class="category-title">
+                                <i class="fas fa-lightbulb"></i>
+                                Soft Skills
+                            </h4>
+                            <div class="skills-grid">
+                                <div class="skill-item" data-skill="learning" data-level="intermediate">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <div class="skill-info">
+                                        <span class="skill-name">Self-Learning</span>
+                                        <span class="skill-level">Intermediate / Growing</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="65"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item" data-skill="problem-solving" data-level="beginner">
+                                    <i class="fas fa-puzzle-piece"></i>
+                                    <div class="skill-info">
+                                        <span class="skill-name">Problem-Solving</span>
+                                        <span class="skill-level">Beginner / Learning</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="40"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item" data-skill="creativity" data-level="beginner">
+                                    <i class="fas fa-paint-brush"></i>
+                                    <div class="skill-info">
+                                        <span class="skill-name">Creativity</span>
+                                        <span class="skill-level">Beginner / Learning</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="35"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item" data-skill="adaptability" data-level="intermediate">
+                                    <i class="fas fa-sync-alt"></i>
+                                    <div class="skill-info">
+                                        <span class="skill-name">Adaptability</span>
+                                        <span class="skill-level">Intermediate / Growing</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="60"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Personal Information Section -->
+                    <div class="personal-sections">
+                        <div class="personal-interests">
+                            <h3>Beyond Code</h3>
+                            <div class="interests-grid">
+                                <div class="interest-item">
+                                    <i class="fas fa-gamepad"></i>
+                                    <div class="interest-info">
+                                        <h4>Gaming</h4>
+                                        <p>Love exploring virtual worlds and strategic gameplay</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="interest-item">
+                                    <i class="fas fa-music"></i>
+                                    <div class="interest-info">
+                                        <h4>Music</h4>
+                                        <p>Always have my headphones on - music fuels my creativity</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="interest-item">
+                                    <i class="fas fa-book"></i>
+                                    <div class="interest-info">
+                                        <h4>Learning</h4>
+                                        <p>Constantly exploring new technologies and concepts</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="interest-item">
+                                    <i class="fas fa-users"></i>
+                                    <div class="interest-info">
+                                        <h4>Collaboration</h4>
+                                        <p>Enjoy working with others and sharing knowledge</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="interest-item">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <div class="interest-info">
+                                        <h4>Problem Solving</h4>
+                                        <p>Love the challenge of finding creative solutions</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="interest-item">
+                                    <i class="fas fa-rocket"></i>
+                                    <div class="interest-info">
+                                        <h4>Innovation</h4>
+                                        <p>Always looking for new ways to improve and create</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="personal-philosophy">
+                            <h3>My Philosophy</h3>
+                            <div class="philosophy-cards">
+                                <div class="philosophy-card">
+                                    <i class="fas fa-heart"></i>
+                                    <div class="card-content">
+                                        <h4>Passion-Driven</h4>
+                                        <p>I believe that genuine passion for what you do leads to exceptional results. Every project I work on is an opportunity to grow and create something meaningful.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="philosophy-card">
+                                    <i class="fas fa-infinity"></i>
+                                    <div class="card-content">
+                                        <h4>Continuous Growth</h4>
+                                        <p>Technology evolves rapidly, and so do I. I embrace the learning process and see every challenge as a stepping stone to becoming better.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="philosophy-card">
+                                    <i class="fas fa-handshake"></i>
+                                    <div class="card-content">
+                                        <h4>Human-Centered</h4>
+                                        <p>Behind every line of code is a real person with real needs. I focus on creating solutions that genuinely improve people's lives.</p>
+                                    </div>
+                                </div>
+                                <div class="philosophy-card">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <div class="card-content">
+                                        <h4>Innovation</h4>
+                                        <p>I strive to think outside the box and bring fresh ideas to the table. Innovation is at the heart of everything I do.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fun-facts">
+                            <h3>Fun Facts About Me</h3>
+                            <div class="facts-container">
+                                <div class="fact-item">
+                                    <i class="fas fa-coffee"></i>
+                                    <span>Powered by coffee and curiosity ☕</span>
+                                </div>
+                                <div class="fact-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Night owl who codes best after sunset 🌙</span>
+                                </div>
+                                <div class="fact-item">
+                                    <i class="fas fa-bug"></i>
+                                    <span>Debugging is my favorite puzzle game 🐛</span>
+                                </div>
+                                <div class="fact-item">
+                                    <i class="fas fa-globe"></i>
+                                    <span>Dream of building apps used worldwide 🌍</span>
+                                </div>
+                                <div class="fact-item">
+                                    <i class="fas fa-question"></i>
+                                    <span>Always asking "How does this work?" 🤔</span>
+                                </div>
+                                <div class="fact-item">
+                                    <i class="fas fa-star"></i>
+                                    <span>Believe in the magic of clean code ✨</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <span>Project 1</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Renewable-Energy-Simulation</h3>
+                        <p class="project-description">
+                            An interactive dashboard for comparing different renewable energy sources. Visualize, compare, and analyze energy data with modern charts and a user-friendly interface.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/arkham-knight07/Renewable-Energy-Simulation.git" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <span>Project 2</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">BRAINBUDDY</h3>
+                        <p class="project-description">
+                           A modern AI-powered lesson converter and quiz generator, Transform your lessons into engaging quizzes with ease.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/arkham-knight07/BRAINBUDDY.git" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Let's work together to bring your ideas to life!</p>
+                    <div class="contact-links">
+                        <a href="mailto:verdhanchiku@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>verdhanchiku@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shrestha-verdhan-14b738323" class="contact-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/arkham-knight07" class="contact-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.instagram.com/sth7rex/" class="contact-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://www.snapchat.com/add/shresthaverdh22" class="contact-link" target="_blank">
+                            <i class="fab fa-snapchat"></i>
+                            <span>Snapchat</span>
+                        </a>
+                        <a href="https://discordapp.com/users/@me" class="contact-link" target="_blank">
+                            <i class="fab fa-discord"></i>
+                            <span>Discord</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Shrestha Verdhan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>
