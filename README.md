@@ -66,7 +66,7 @@ A modern AI-powered lesson converter and quiz generator. Transform your lessons 
 
 ## 🚀 Deployment
 
-**Live Site:** [View Portfolio](https://arkham-knight07-portfolio.vercel.app)
+**Live Site:** [View Portfolio](https://shrestha-dev.vercel.app/)
 
 Deploy to Vercel by connecting your GitHub repository at [vercel.com](https://vercel.com)
 
