@@ -1,83 +1,162 @@
-# Shrestha Verdhan - Portfolio Website# Shrestha Verdhan - Portfolio Website
+# Shrestha Verdhan - Portfolio Website# Shrestha Verdhan - Portfolio Website# Shrestha Verdhan - Portfolio Website
 
 
 
-A modern, responsive portfolio website showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript.A modern, responsive portfolio ## 🚀 Deployment
+A modern, responsive portfolio website showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript.
 
 
 
-## ✨ Features**Live Site:** [View Portfolio](https://arkham-knight07-portfolio.netlify.app)
+## ✨ FeaturesA modern, responsive portfolio website showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript.A modern, responsive portfolio ## 🚀 Deployment
 
 
 
-- Responsive design for all devicesDeploy to Netlify:
+- Responsive design for all devices
 
-- Smooth animations and interactive elements1. Connect your GitHub repository at [netlify.com](https://netlify.com)
+- Smooth animations and interactive elements
 
-- Clean, professional UI/UX2. Auto-deploys on every push to main branch
+- Clean, professional UI/UX## ✨ Features**Live Site:** [View Portfolio](https://arkham-knight07-portfolio.netlify.app)
 
 - SEO optimized
 
-## 📞 Contact
+
 
 ## 📁 Project Structure
 
-- **GitHub:** [@arkham-knight07](https://github.com/arkham-knight07)
+- Responsive design for all devicesDeploy to Netlify:
 
-```- **Portfolio:** Contact form available on the website
+```
 
-PORTFOLIO-WEBSITE/
+PORTFOLIO-WEBSITE/- Smooth animations and interactive elements1. Connect your GitHub repository at [netlify.com](https://netlify.com)
 
-├── index.html              # Main HTML file## 📄 License
+├── index.html              # Main HTML file
 
-├── src/
+├── src/- Clean, professional UI/UX2. Auto-deploys on every push to main branch
 
-│   ├── css/MIT Licenseebsite showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript.
+│   ├── css/
 
-│   │   └── styles.css      # Main stylesheet with animations
-
-│   ├── js/## ✨ Features
-
-│   │   └── main.js         # Interactive functionality
-
-│   └── images/- Responsive design for all devices
-
-│       └── profile.jpg     # Profile photo- Smooth animations and interactive elements
-
-├── package.json            # Dependencies and scripts- Clean, professional UI/UX
-
-├── netlify.toml           # Netlify deployment configuration- SEO optimized
-
-└── README.md              # Project documentation
-
-```## 📁 Project Structure
-
-
-
-## 🛠️ Technologies```
-
-PORTFOLIO-WEBSITE/
-
-- HTML5, CSS3, JavaScript (ES6+)├── index.html              # Main HTML file
-
-- Google Fonts, Font Awesome├── src/
-
-- Live Server for development│   ├── css/
-
-- Deployed on Netlify│   │   └── styles.css      # Main stylesheet with animations
+│   │   └── styles.css      # Main stylesheet with animations- SEO optimized
 
 │   ├── js/
 
-## 🚀 Quick Start│   │   └── main.js         # Interactive functionality
+│   │   └── main.js         # Interactive functionality## 📞 Contact
 
 │   └── images/
 
-1. **Clone the repository**│       └── profile.jpg     # Profile photo
+│       └── profile.jpg     # Profile photo## 📁 Project Structure
+
+├── package.json            # Dependencies and scripts
+
+├── netlify.toml           # Netlify deployment configuration- **GitHub:** [@arkham-knight07](https://github.com/arkham-knight07)
+
+└── README.md              # Project documentation
+
+``````- **Portfolio:** Contact form available on the website
+
+
+
+## 🛠️ TechnologiesPORTFOLIO-WEBSITE/
+
+
+
+- HTML5, CSS3, JavaScript (ES6+)├── index.html              # Main HTML file## 📄 License
+
+- Google Fonts, Font Awesome
+
+- Live Server for development├── src/
+
+- Deployed on Netlify
+
+│   ├── css/MIT Licenseebsite showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript.
+
+## 🚀 Quick Start
+
+│   │   └── styles.css      # Main stylesheet with animations
+
+1. **Clone the repository**
+
+   ```bash│   ├── js/## ✨ Features
+
+   git clone https://github.com/arkham-knight07/PORTFOLIO-WEBSITE.git
+
+   cd PORTFOLIO-WEBSITE│   │   └── main.js         # Interactive functionality
+
+   ```
+
+│   └── images/- Responsive design for all devices
+
+2. **Install and run**
+
+   ```bash│       └── profile.jpg     # Profile photo- Smooth animations and interactive elements
+
+   npm install
+
+   npm run dev├── package.json            # Dependencies and scripts- Clean, professional UI/UX
+
+   ```
+
+   ├── netlify.toml           # Netlify deployment configuration- SEO optimized
+
+   Opens at `http://localhost:3000`
+
+└── README.md              # Project documentation
+
+## 📜 Available Scripts
+
+```## 📁 Project Structure
+
+- `npm run dev` - Development server with live reload
+
+- `npm run build` - Build for production
+
+
+
+## 🎯 Featured Projects## 🛠️ Technologies```
+
+
+
+### 1. Renewable Energy SimulationPORTFOLIO-WEBSITE/
+
+An interactive dashboard for comparing different renewable energy sources. Visualize, compare, and analyze energy data with modern charts and a user-friendly interface.
+
+- **Repository**: [Renewable-Energy-Simulation](https://github.com/arkham-knight07/Renewable-Energy-Simulation.git)- HTML5, CSS3, JavaScript (ES6+)├── index.html              # Main HTML file
+
+
+
+### 2. BrainBuddy- Google Fonts, Font Awesome├── src/
+
+A modern AI-powered lesson converter and quiz generator. Transform your lessons into engaging quizzes with ease.
+
+- **Repository**: [BRAINBUDDY](https://github.com/arkham-knight07/BRAINBUDDY.git)- Live Server for development│   ├── css/
+
+
+
+## 🚀 Deployment- Deployed on Netlify│   │   └── styles.css      # Main stylesheet with animations
+
+
+
+**Live Site:** [View Portfolio](https://arkham-knight07-portfolio.netlify.app)│   ├── js/
+
+
+
+Deploy to Netlify by connecting your GitHub repository at [netlify.com](https://netlify.com)## 🚀 Quick Start│   │   └── main.js         # Interactive functionality
+
+
+
+## 📞 Contact│   └── images/
+
+
+
+- **GitHub:** [@arkham-knight07](https://github.com/arkham-knight07)1. **Clone the repository**│       └── profile.jpg     # Profile photo
+
+- **Portfolio:** Contact form available on the website
 
    ```bash├── .github/
 
+## 📄 License
+
    git clone https://github.com/arkham-knight07/PORTFOLIO-WEBSITE.git│   └── copilot-instructions.md
 
+MIT License
    cd PORTFOLIO-WEBSITE├── package.json            # Dependencies and scripts
 
    ```├── netlify.toml           # Netlify deployment configuration
