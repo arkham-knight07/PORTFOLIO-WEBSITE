@@ -1,4 +1,4 @@
-# Shrestha Verdhan - Portfolio Website (https://shrestha-dev.vercel.app/)
+# Shrestha Verdhan - Portfolio Website 
 
 A modern, responsive portfolio website showcasing my skills and projects. Built with HTML5, CSS3, and vanilla JavaScript.
 
