@@ -22,7 +22,7 @@ PORTFOLIO-WEBSITE/
 │   └── images/
 │       └── profile.jpg     # Profile photo
 ├── package.json            # Dependencies and scripts
-├── netlify.toml           # Netlify deployment configuration
+├── vercel.json            # Vercel deployment configuration
 └── README.md              # Project documentation
 ```
 
@@ -31,7 +31,7 @@ PORTFOLIO-WEBSITE/
 - HTML5, CSS3, JavaScript (ES6+)
 - Google Fonts, Font Awesome
 - Live Server for development
-- Deployed on Netlify
+- Deployed on Vercel
 
 ## 🚀 Quick Start
 
@@ -66,9 +66,9 @@ A modern AI-powered lesson converter and quiz generator. Transform your lessons 
 
 ## 🚀 Deployment
 
-**Live Site:** [View Portfolio](https://arkham-knight07-portfolio.netlify.app)
+**Live Site:** [View Portfolio](https://arkham-knight07-portfolio.vercel.app)
 
-Deploy to Netlify by connecting your GitHub repository at [netlify.com](https://netlify.com)
+Deploy to Vercel by connecting your GitHub repository at [vercel.com](https://vercel.com)
 
 ## 📞 Contact
 
