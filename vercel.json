@@ -4,6 +4,10 @@
       "maxDuration": 10
     }
   },
+  "env": {
+    "SITE_NAME": "Shrestha Verdhan Portfolio",
+    "CONTACT_EMAIL": "verdhanchiku@gmail.com"
+  },
   "headers": [
     {
       "source": "/src/(.*)",
